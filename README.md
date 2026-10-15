@@ -9,6 +9,8 @@ codex mcp add jobspidey --url https://mcp.jobspidey.com/mcp
 codex mcp login jobspidey
 ```
 
+[Watch the 69-second feature preview](https://github.com/ravikiranshelly/jobspidey-mcp/releases/tag/v0.1.0-preview): saved actual search results, generated PDF pages, free expired-link recovery, and application tracking. The release notes describe the completed checks and remaining client acceptance.
+
 [Setup](docs/setup.md) · [Eleven-tool contract](docs/tool-contract.md) · [Compatibility/evidence](docs/compatibility.md)
 
 `server.json` matches the active [Official MCP Registry entry](https://registry.modelcontextprotocol.io/v0.1/servers/com.jobspidey%2Fjobspidey/versions/0.1.0) for `com.jobspidey/jobspidey`, version `0.1.0`, verified on 2026-10-13 UTC. The portable `mcp.json` describes transport/URL; each client applies its own OAuth discovery and registration behavior. These docs and manifests contain no server implementation or private application source. The included logo reuses JobSpidey's public brand asset.
